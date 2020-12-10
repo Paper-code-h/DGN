@@ -6,7 +6,7 @@ import torch
 import torch.nn.functional as F
 from torch_geometric.datasets import Planetoid
 import torch_geometric.transforms as T
-from torch_geometric.nn import GCNConv, ChebConv  # noqa
+from torch_geometric.nn import GCNConv, ChebConv 
 import time
 from deepwalkm.deepwalk.__main__ import get_embedding
 import numpy as np
